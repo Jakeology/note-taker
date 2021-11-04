@@ -1,0 +1,27 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "Express.js note taker challenge",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jakeology/note-taker.git"
+  },
+  "author": "Jakeology",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jakeology/note-taker/issues"
+  },
+  "homepage": "https://github.com/Jakeology/note-taker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  }
+}
