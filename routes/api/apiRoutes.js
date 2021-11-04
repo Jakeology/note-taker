@@ -6,5 +6,4 @@ router.get("/notes", (req, res) => {
   return res.json(notes);
 });
 
-module.exports  = router;
-
+module.exports = router;
