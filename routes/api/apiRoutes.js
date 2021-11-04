@@ -1,3 +1,4 @@
+const { createNote, validateNote } = require('../../lib/notes');
 const { notes } = require("../../db/db");
 
 const { v4: uuidv4 } = require('uuid');
