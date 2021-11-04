@@ -1,5 +1,7 @@
 const { notes } = require("../../db/db");
 
+const { v4: uuidv4 } = require('uuid');
+
 const router = require("express").Router();
 
 router.get("/notes", (req, res) => {
